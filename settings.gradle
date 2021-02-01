@@ -1,3 +1,6 @@
 include ':tp01'
 include ':app'
+include ':tp02'
+include ':tp03'
+include ':tp04'
 rootProject.name = "Cours_Android_JEROME_WEDTER"
