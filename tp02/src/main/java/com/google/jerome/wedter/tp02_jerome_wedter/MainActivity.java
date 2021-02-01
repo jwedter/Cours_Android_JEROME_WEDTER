@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == RESULT_OK) {
             if (requestCode == COMPUTE_CODE && data != null) {
-                int result = data.getIntExtra("result", -1);
+                String result = data.getStringExtra("result");
                 Toast.makeText(this, "Result is " + result, Toast.LENGTH_SHORT).show();
             }
         } else Toast.makeText(this, "Error!", Toast.LENGTH_SHORT).show();
