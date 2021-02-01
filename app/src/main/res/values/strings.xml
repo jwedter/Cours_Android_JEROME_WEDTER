@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Cours_Android_JEROME_WEDTER</string>
+    <string name="tp01">TP01</string>
+    <string name="tp02">TP02</string>
+    <string name="tp03">TP03</string>
+    <string name="to04">TO04</string>
 </resources>
